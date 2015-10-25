@@ -1,0 +1,58 @@
+html, body {
+  background-color: #2A2F3A;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  width: 39em;
+  padding: 10em;
+}
+
+h1 {
+  font-size: 4em;
+  font-weight: 700;
+  margin-top: 0;
+}
+
+a, h2 {
+  font-size: 3.5em;
+  font-weight: 300;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  border-bottom: .1em solid #fff;
+  padding-bottom: .1em;
+}
+
+@media (max-width: 768px) {
+  body {
+    width: 30em;
+    padding: 6em;
+  }
+
+  h1 {
+    font-size: 3em;
+  }
+
+  a, h2 {
+    font-size: 2.5em;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    width: 23em;
+    padding: 3em;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  a, h2 {
+    font-size: 1.5em;
+  }
+}
